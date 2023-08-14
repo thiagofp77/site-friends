@@ -1,0 +1,267 @@
+body{
+    background-color: #030328;
+}
+
+header{
+    position: fixed;
+    z-index: 102;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgba(0,0,0,.3);
+    width: 99vw;
+    height: 63px;
+    padding: 8px 32px 8px 16px;
+}
+header img{
+    width: 170px;
+    height: auto;
+}
+header div a{
+    font: 12px 'font6';
+    text-decoration: none;
+    color: white;
+    letter-spacing: .2em;
+    padding: 12.6px 28px;
+}
+
+#b1{
+    border-radius: 30px;
+    background-color: #b535f6;
+}
+
+nav{
+    height: 58vw;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav img{
+    height: 80vh;
+}
+
+nav h1{
+    color: #fff;
+    font: 50px 'font2';
+    margin-bottom: 10px; 
+}
+
+.secao-01{
+    margin-top: -80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 15vh;
+    margin-bottom: 40px;
+
+    background: url(https://hbomax-images.warnermediacdn.com/module-assets/gradient2.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com) center center / cover;
+}
+
+.secao-01 h1{
+    color: #fff;
+    font: 40px 'font2';
+    margin-right:60px ;
+   
+}
+
+.secao-01 a{
+    font: 15px 'font6';
+    text-decoration: none;
+    color: white;
+    letter-spacing: .2em;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #b535f6;
+    margin-left: 60px;
+}
+
+article{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 90px;
+}
+article div{
+    display: flex;
+    flex-direction: row;  
+    width: 70vw; 
+}
+
+article p{
+    color: #fff;
+    font: 20px 'font3';
+    width: 35vw;
+    margin: 0px 30px;
+    line-height: 30px;
+}
+
+.secao-02{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin-bottom: 30px;
+}
+
+.secao-02 h1{
+    color: #fff;
+    font: 30px 'font2';
+    margin-right:60px ;  
+}
+
+.secao-02 h2{
+    color: #9e86ff;
+    font: 17px 'font1';
+    margin-right:60px ;  
+    letter-spacing: 5px;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section div{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 20px;
+}
+
+section div div{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+
+section div div img{
+    width: 15vw;
+    margin-bottom: 10px;
+}
+
+section div div h1{
+    color: #fff;
+    font: 18px 'font2';
+    width: 16vw;
+    margin-bottom: 10px;
+}
+
+section div div p{
+    color: #fff;
+    font: 13px 'font3';
+    width: 15vw;
+    margin-bottom: 10px;
+}
+
+section div div a{
+    text-decoration: none;
+    font: 13px 'font3';
+    color: #9e86ff;
+}
+
+section div div a:hover{
+   color: #fff;
+   transition: 0.3s;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+aside div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 20px;
+}
+aside div div{
+    display: flex;
+    flex-direction: column;
+}
+
+#t1{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;   
+}
+
+#t1 div h1{
+    color: #fff;
+    font: 33px 'font2';
+    margin-right:60px ;  
+}
+
+aside div img{
+    width: 15vw;
+    margin-bottom: 10px;
+}
+
+aside div div h1{
+    color: #fff;
+    font: 17px 'font2';
+    margin-bottom: 10px;
+    align-self: flex-start;
+    
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:50px ;
+}
+
+
+.p1{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p1 h1{
+    color: #9e86ff;
+    font: 13px 'font1';
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.p2{
+    display: flex;
+    flex-direction: row;
+}
+
+.p2 h2{
+    display: flex;
+    margin: 7px;
+    margin-right: 25px;
+    justify-content: space-between;
+    color: #9e86ff;
+    font: 15px 'font2';
+    margin-bottom: 20px;
+}
+
+.solo p{
+    color: #9e86ff;
+    font: 12px 'font2';
+    margin-bottom: 10px;
+}
+
